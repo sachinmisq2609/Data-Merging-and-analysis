@@ -7,13 +7,11 @@ Install the NumPy library (`pip install numpy`)
 # Installing 
 - Clone the repository first - 
 - git clone https://github.com/sachinmisq2609/Data-Merging-and-analysis.git
-- cd Data-Merging-and-analysis
 -  Install the Pandas library: pip install pandas
 The following datasets are used in this lab:
 -   `wards.csv`: Contains information about Chicago wards.
 -   `Census.csv`: Contains population data for Chicago wards.
 -   `licenses.csv`: Contains business licenses data for Chicago wards.
--   `vgsales.csv`: Contains video game sales data (used for SQL examples).
 # Running the tests
 Below is a section explaining how to run the automated tests for this system:
 1.  Execute the Python script `data_analysis.py`:
@@ -38,8 +36,7 @@ The test suite includes:
 - Integration tests for end-to-end workflows
 - Performance tests for large datasets
 - ## Deployment
-
-This package can be imported into other Python projects or used as a standalone tool. For integration with production systems, consider the following:
+This package can be imported into other Python projects or used as a standalone tool like PowerBI or Tableau. For integration with production systems, consider the following:
 - Ensure all dependencies are properly managed
 - Implement proper error handling for production environments
 - Set up logging to monitor performance
