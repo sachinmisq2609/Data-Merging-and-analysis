@@ -14,8 +14,8 @@ The following datasets are used in this lab:
 -   `licenses.csv`: Contains business licenses data for Chicago wards.
 # Running the tests
 Below is a section explaining how to run the automated tests for this system:
-1.  Execute the Python script `data_merging.py`:
-- python data_merging.py
+1.  Execute the Python script `lab6.py`:
+- python lab6.py
 1.  Load the datasets using Pandas:
     import pandas as pd
     wards = pd.read_csv('wards.csv')
